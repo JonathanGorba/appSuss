@@ -1,6 +1,8 @@
 /* typography */
 @import 'typography.css';
 
+@import 'mailMobile.css';
+
 /* PARTS */
 
 @import '../css/parts/base.css';
