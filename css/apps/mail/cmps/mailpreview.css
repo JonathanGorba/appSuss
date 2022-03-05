@@ -83,6 +83,5 @@ display: flex;
     width: 40px;
     height: 40px;
     /* margin-right:10px; */
-    border: solid red 3px;
-    margin-bottom: 1px;
+     margin-bottom: 1px;
 }
