@@ -82,8 +82,7 @@ display: flex;
 
 .profile-pic{
     margin: auto;
-    width: fit-content;
-    height: fit-content;
+    object-fit: cover;
     border-radius: 50%;
     width: 40px;
     height: 40px;
