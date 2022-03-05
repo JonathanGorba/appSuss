@@ -1,4 +1,4 @@
-import { mailService } from '../services/mailservice.js';
+import { mailService } from '../services/MailService.js';
 import mailList from '../cmps/mail-list.cmp.js';
 import sideBar from '../cmps/side-bar.cmp.js';
 import compose from '../cmps/compose.cmp.js';
