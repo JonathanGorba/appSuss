@@ -1,0 +1,86 @@
+
+.mail-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background-color: lightgrey;
+    border: 1px black solid;
+    /* position: relative; */
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 2;
+}
+
+.mail-header{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.btns-details{
+    display: flex;
+    /* width: 3rem; */
+    
+    /* padding-right: 20px; */
+}
+.btn-trash{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 30px;
+}
+.btn-unread{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.btn-full-mail{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.btn-go-back{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 30px;
+}
+
+.mail-layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-forward{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 30px;
+}
+
+.detail-mail-subject{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.detail-sender{
+    font-size: 1.6rem;
+}
+
+.detail-mail-sender{
+    color: lightgray;
+    font-size: 1rem;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.detail-mail-body{
+    text-align: left;
+
+}
+
+.sub-header-details{
+    display: flex;
+}

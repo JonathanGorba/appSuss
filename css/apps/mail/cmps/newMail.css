@@ -1,0 +1,80 @@
+.new-mail{
+height: 100%;
+width: 80%;
+grid-column: 2;
+grid-row: 1;
+z-index: 3;
+background-color: rgb(240, 240, 240);
+}
+
+.compose-header{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: black;
+    color:white;height: 7%;
+    padding-left: 2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mail-to{
+    height: 8%;
+    font-size: 1rem;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    width: 100%;
+    padding-left: 2px;
+
+}
+
+.mail-subject{
+    height: 8%;
+    font-size: 1rem;
+    background-color: rgb(240, 240, 240);
+    border-top: lightgray solid 1px;
+    border-bottom: lightgray solid 1px;
+    border-left:none;
+    border-right:none;
+    width: 100%;
+    padding-left: 2px;
+
+}
+
+.mail-body{
+    height: 60%;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding-left: 2px;
+
+
+    
+}
+
+.close-compose-head{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width:70;
+    margin-right: 10px;
+    
+}
+
+.submit{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 60px;
+}
+
+.compose-btns{
+    /* width: fit-content; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.close-compose-bottom{
+    font-size: 1rem;
+    object-fit:scale-down;
+    width: 45px;
+}

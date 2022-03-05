@@ -1,0 +1,29 @@
+.keep-note-list{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.keep-note-list ul{
+    margin: 0 auto;
+    max-width: 1300px;
+    columns: auto;
+    column-width: 310px;
+}
+.keep-note h4{
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: hate;
+    font-size: 2em;
+}
+.keep-note pre{
+    font-family: hate;
+    white-space: pre-wrap;
+    font-size: 2em;
+}
+.keep-note li{
+    font-size: 2em;
+    font-family:hate;
+}
+.keep-note .text{
+    text-align: center;
+}
+

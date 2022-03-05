@@ -1,0 +1,88 @@
+.bold{
+    font-weight: bold;
+}
+
+.mail-preview-container{
+    padding: 0;
+}
+.mail-subject{
+display: flex;
+
+}
+.btns-mail-preview{
+    display: flex;
+    width: 7rem;
+}
+
+.preview-sender{
+    width: 16%;
+    text-align: left;
+
+}
+
+.date{
+    width: fit-content;
+    width: 7rem;
+
+}
+
+.preview-subject{
+    width: 75%;
+    text-align: left;
+    padding-left:10px;
+}
+.mail-preview-header{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: fit-content;
+}
+.btns-long-preview{
+    display: flex   ;
+    padding-right: 16px;
+
+    }
+    
+.mail-preview-bottom{
+    display: flex;
+    height: 40px;
+}
+
+.long-preview{
+    height: fit-content;
+}
+.long-preview-subject{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.small-adress{
+    color: lightgray;
+    font-size: 1rem;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.sender-name-log-preview{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: auto 0 ;
+
+}
+
+.preview-txt{
+    text-align: left;
+}
+
+.profile-pic{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* margin-right:10px; */
+    border: solid red 3px;
+    margin-bottom: 1px;
+}
