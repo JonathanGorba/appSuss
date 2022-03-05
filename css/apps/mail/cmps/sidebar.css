@@ -56,11 +56,6 @@
     position: relative;
 }
 
-
-
-
-
-
 .button-sidebar {
   align-items: center;
   background-color: rgb(218, 77, 77);
@@ -89,9 +84,25 @@
   touch-action: manipulation;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 100%;
 
 }
 
 .button-sidebar:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+.mail-logo{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    width: 170px;
+}
+
+.folders-list{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
