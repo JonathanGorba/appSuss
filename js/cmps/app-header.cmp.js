@@ -3,11 +3,11 @@ export default {
         <header class="app-header">
             <div class="header-container">
             <router-link to="/">
-                <img class=logo src="../../img/appsus/img/logo.png" alt="">
+                <img class=logo src="./img/appsus/img/logo.png" alt="">
             </router-link>
                 <nav class="head-nav">
                     <router-link to="/">
-                    <img src="../../img/appsus/icons/home.png" alt="">
+                    <img src="/img/appsus/icons/home.png" alt="">
                     </router-link>
                     <router-link to="/mail">
                         <img src="../../img/appsus/icons/email.png" alt="">
