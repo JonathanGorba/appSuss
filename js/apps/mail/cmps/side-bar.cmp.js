@@ -1,4 +1,4 @@
-import {mailService} from '../services/mailservice.js';
+import {mailService} from '../services/MailService.js';
 import percentageBar from './../cmps/percentage-bar.cmp.js'
 export default {
     props:['perc'],

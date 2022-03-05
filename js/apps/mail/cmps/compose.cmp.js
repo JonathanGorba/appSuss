@@ -1,6 +1,6 @@
 import {
     mailService
-} from '../services/mailservice.js';
+} from '../services/MailService.js';
 
 export default {
     template: `

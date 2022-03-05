@@ -1,4 +1,4 @@
-import {mailService} from '../services/MailService.js';
+// import {mailService} from '../services/MailService.js';
 
 export default {
     props: ['mails'],
