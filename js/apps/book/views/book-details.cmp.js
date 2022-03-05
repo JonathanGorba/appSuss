@@ -84,10 +84,10 @@ export default {
             else return false;
         },
         newBook() {
-            if (new Date().getFullYear() - this.book.publishedDate < 1) return '../../../img/book/img/new.png'
+            if (new Date().getFullYear() - this.book.publishedDate < 1) return './img/book/img/new.png'
         },
         sale() {
-            if (this.book.listPrice.isOnSale) return '../../../img/book/img/sale.png';
+            if (this.book.listPrice.isOnSale) return './img/book/img/sale.png';
         },
 
 

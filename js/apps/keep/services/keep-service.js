@@ -186,7 +186,7 @@ function _createNotes() {
               },
               "info": {
                 "title": "Pinned image",
-                "url": "../../../img/keep/img/cat.jpg"
+                "url": "./img/keep/img/cat.jpg"
               },
               "id": "uDiyDxbT"
             },
@@ -283,7 +283,7 @@ function _createNotes() {
               },
               "info": {
                 "title": "I'm an image note",
-                "url": "../../../img/keep/img/bird.jpg"
+                "url": "./img/keep/img/bird.jpg"
               },
               "id": "0B3ICzeW"
             },

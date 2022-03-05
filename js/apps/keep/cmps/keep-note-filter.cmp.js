@@ -3,7 +3,7 @@ export default {
         <section class="note-filter">
             <input type="text" placeholder="filter..." v-model="filterBy.text">
             <button @click="setFilter">
-                <img src="../../../img/keep/icons/search.png" alt="search">
+                <img src="./img/keep/icons/search.png" alt="search">
             </button>
         </section>
     `,

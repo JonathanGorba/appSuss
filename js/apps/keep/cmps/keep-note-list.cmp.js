@@ -11,28 +11,28 @@ export default {
             <ul>
                 <li v-show="note.isPinned" v-for="note in notes" :key="note.id"  :style="note.style" @mouseleave="closePalette" class="note-preview-container">
                     <note-delete-screen v-show="deleteScreen===note.id" @mouseleave="closeDelete" @closeDeleteScreen="closeDelete" @deleteConfirm="noteManipulation('delete',note.id)" />
-                    <img src="../../../img/keep/icons/pin.png" class="pinned-img" @click="togglePinned(note.id)">
+                    <img src="./img/keep/icons/pin.png" class="pinned-img" @click="togglePinned(note.id)">
                     <keep-note-preview :note="note" @listUpdate="updateList"/>
                     <note-color-palette v-if="colorPalette===note.id" @colorUpdate="updateColor"/>
                     <div class="note-tools">
                     <button @click="toggleDelete(note.id)">
-                        <img src="../../../img/keep/icons/garbage.png" alt="">
+                        <img src="./img/keep/icons/garbage.png" alt="">
                     </button>
                     <button @click="noteManipulation('edit',note.id)">
-                        <img src="../../../img/keep/icons/edit.png" alt="">
+                        <img src="./img/keep/icons/edit.png" alt="">
                     </button>
                     <button @click="togglePalette(note.id)">
-                        <img src="../../../img/keep/icons/palette.png" alt="">
+                        <img src="./img/keep/icons/palette.png" alt="">
                     </button>
                     <button @click="togglePinned(note.id)">
-                        <img src="../../../img/keep/icons/pin.png" alt="">
+                        <img src="./img/keep/icons/pin.png" alt="">
                     </button>
                     <button @click="duplicate(note.id)">
-                        <img src="../../../img/keep/icons/copy.png" alt="">
+                        <img src="./img/keep/icons/copy.png" alt="">
                     </button>
                     <router-link :to="'/mail/'+mailInput(note)">
                     <button>
-                        <img src="../../../img/keep/icons/email.png" alt="">
+                        <img src="./img/keep/icons/email.png" alt="">
                     </button>
                     </router-link>
                     </div>
@@ -47,23 +47,23 @@ export default {
                     <note-color-palette v-if="colorPalette===note.id" @colorUpdate="updateColor"/>
                     <div class="note-tools">
                     <button @click="toggleDelete(note.id)">
-                        <img src="../../../img/keep/icons/garbage.png" alt="">
+                        <img src="./img/keep/icons/garbage.png" alt="">
                     </button>
                     <button @click="noteManipulation('edit',note.id)">
-                        <img src="../../../img/keep/icons/edit.png" alt="">
+                        <img src="./img/keep/icons/edit.png" alt="">
                     </button>
                     <button @click="togglePalette(note.id)">
-                        <img src="../../../img/keep/icons/palette.png" alt="">
+                        <img src="./img/keep/icons/palette.png" alt="">
                     </button>
                     <button @click="togglePinned(note.id)">
-                        <img src="../../../img/keep/icons/pin.png" alt="">
+                        <img src="./img/keep/icons/pin.png" alt="">
                     </button>
                     <button @click="duplicate(note.id)">
-                        <img src="../../../img/keep/icons/copy.png" alt="">
+                        <img src="./img/keep/icons/copy.png" alt="">
                     </button>
                     <router-link :to="'/mail/'+mailInput(note)">
                     <button>
-                        <img src="../../../img/keep/icons/email.png" alt="">
+                        <img src="./img/keep/icons/email.png" alt="">
                     </button>
                     </router-link>
                     </div>

@@ -5,13 +5,13 @@ export default {
     <div class="mail-preview" :class="shadow" @mouseover="mouseover" @mouseleave="mouseleave">
         <div class="mail-subject">
         <p class="preview-sender" :class="bold"> {{nameOfMailSend}} </p>
-        <img  class="profile-pic" :src="'../../../img/mail/'+mail.pic+'.jpg'" >
+        <img  class="profile-pic" :src="'./img/mail/'+mail.pic+'.jpg'" >
         <p class="preview-subject" :class="bold"> {{mail.subject}}</p> 
         <p class="date" v-show="!isHover" :class="bold"> {{mailDate}}</p>
         <div class = "btns-mail-preview" v-show="isHover">
-        <img src="../../../img/keep/icons/unread.png" alt="" class="btn-unread" :class="readUnread" @click.stop = "unread(mail)">
+        <img src="./img/keep/icons/unread.png" alt="" class="btn-unread" :class="readUnread" @click.stop = "unread(mail)">
             <!-- <div :class="readUnread" @click.stop = "unread(mail)">unread</div> -->
-            <img src="../../../img/keep/icons/garbage.png" alt="" class="btn-trash" @click.stop="removePreview(mail.id)">
+            <img src="./img/keep/icons/garbage.png" alt="" class="btn-trash" @click.stop="removePreview(mail.id)">
         </div>
         </div> 
     </div>`,

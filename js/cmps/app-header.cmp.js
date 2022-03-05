@@ -7,16 +7,16 @@ export default {
             </router-link>
                 <nav class="head-nav">
                     <router-link to="/">
-                    <img src="/img/appsus/icons/home.png" alt="">
+                    <img src="./img/appsus/icons/home.png" alt="">
                     </router-link>
                     <router-link to="/mail">
-                        <img src="../../img/appsus/icons/email.png" alt="">
+                        <img src="./img/appsus/icons/email.png" alt="">
                     </router-link>
                     <router-link to="/keep"> 
-                        <img src="../../img/appsus/icons/note.png" alt="">
+                        <img src="./img/appsus/icons/note.png" alt="">
                     </router-link>
                     <router-link to="/book"> 
-                        <img src="../../img/appsus/icons/book.png" alt="">
+                        <img src="./img/appsus/icons/book.png" alt="">
                     </router-link>
                 </nav>
             </div>
