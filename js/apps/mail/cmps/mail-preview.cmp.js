@@ -4,7 +4,7 @@ export default {
     <div class="mail-preview" :class="shadow" @mouseover="mouseover" @mouseleave="mouseleave">
         <div class="mail-subject">
         <p class="preview-sender" :class="bold"> {{nameOfMailSend}} </p>
-        <img  class="profile-pic" :src="'../../../../img/mail'+mail.pic+'.jpg'" >
+        <img  class="profile-pic" :src="'../../../../img/mail/'+mail.pic+'.jpg'" >
         <p class="preview-subject" :class="bold"> {{mail.subject}}</p> 
         <p class="date" v-show="!isHover" :class="bold"> {{mailDate}}</p>
         <div class = "btns-mail-preview" v-show="isHover">
@@ -24,6 +24,7 @@ export default {
     methods: {
         mouseover() {
             return this.isHover = true
+            
         },
         mouseleave() {
             return this.isHover = false
@@ -32,6 +33,7 @@ export default {
             this.$emit('removePreview', mailId);
         },
         unread(mail) {
+            console.log(this.mail)
             this.$emit('readUnread', mail)
             return this.isRead = !this.isRead
         },
