@@ -4,7 +4,12 @@
 
 .mail-preview-container{
     padding: 0;
+    transition: box-shadow .1s;
 }
+
+.mail-preview-container:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.8); 
+  }
 .mail-subject{
 display: flex;
 
