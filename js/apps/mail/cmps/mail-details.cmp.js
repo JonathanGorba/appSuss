@@ -8,9 +8,9 @@ export default {
                         <div class="detail-mail-subject">{{mails.subject}}</div>
                         <div class = 'btns-details'>
                             <!-- <div class="btn-back" @click.stop="backToMails">go back</div> -->
-                            <img src="../../../img/keep/icons/back.png" alt="go back to mail" class="btn-go-back" @click.stop="backToMails" >
-                            <img src="../../../img/keep/icons/forward2.png" alt="send to notes" class="btn-forward" @click="sendToKeep" >
-                            <img src="../../../img/keep/icons/garbage.png" alt="delete mail" class="btn-trash" @click.stop="remove(mails.id)">
+                            <img src="./img/keep/icons/back.png" alt="go back to mail" class="btn-go-back" @click.stop="backToMails" >
+                            <img src="./img/keep/icons/forward2.png" alt="send to notes" class="btn-forward" @click="sendToKeep" >
+                            <img src="./img/keep/icons/garbage.png" alt="delete mail" class="btn-trash" @click.stop="remove(mails.id)">
                             <!-- <div  >remove</div> -->
                         </div>
                     </div>

@@ -7,15 +7,15 @@ export default {
     <form  class="new-mail" action="" @submit="sendMail">
     <div class="compose-header">
         <div class="compose-headline">New Mail</div>
-    <img src="../../../img/keep/icons/back.png"  class="close-compose-head" alt="go back" @click="closeCompose">
+    <img src="./img/keep/icons/back.png"  class="close-compose-head" alt="go back" @click="closeCompose">
     </div>
     
        <input v-model.lazy="mailTo" placeholder="to:" class="mail-to" type="email" requierd>   
        <input v-model.lazy="subject" placeholder="subject:" class="mail-subject" type="text" requierd>  
        <textarea v-model.lazy="text" placeholder="Mail Body:" class="mail-body" required></textarea>
        <div class="compose-btns">
-       <img src="../../../img/keep/icons/garbage.png"  class="close-compose-bottom" alt="go back" @click="closeCompose">
-       <input class="submit"  src="../../../img/keep/icons/send1.png" type="image" value="Send">
+       <img src="./img/keep/icons/garbage.png"  class="close-compose-bottom" alt="go back" @click="closeCompose">
+       <input class="submit"  src="./img/keep/icons/send1.png" type="image" value="Send">
     </div>
        </form>
 

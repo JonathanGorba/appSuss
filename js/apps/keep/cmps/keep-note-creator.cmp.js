@@ -11,19 +11,19 @@ export default {
                 <input type="text" placeholder="Note Title" class="title-input" v-model="noteTitle">
                 <div>
                     <button :style="txtSelected" @click="setNoteType('noteTxt')">
-                        <img src="../../../img/keep/icons/text.png" alt="">
+                        <img src="./img/keep/icons/text.png" alt="">
                     </button>
                     <button :style="imgSelected" @click="setNoteType('noteImg')">
-                        <img src="../../../img/keep/icons/image.png" alt="">
+                        <img src="./img/keep/icons/image.png" alt="">
                     </button>
                     <button :style="listSelected" @click="setNoteType('noteList')">
-                        <img src="../../../img/keep/icons/list.png" alt="">
+                        <img src="./img/keep/icons/list.png" alt="">
                     </button>
                     <button :style="videoSelected" @click="setNoteType('noteVideo')">
-                        <img src="../../../img/keep/icons/video.png" alt="">
+                        <img src="./img/keep/icons/video.png" alt="">
                     </button>
                     <button @click="addNewNote">
-                        <img src="../../../img/keep/icons/add.png" alt="">
+                        <img src="./img/keep/icons/add.png" alt="">
                     </button>
                 </div>
             </div>
