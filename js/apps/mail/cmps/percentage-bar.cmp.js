@@ -18,7 +18,7 @@ export default {
                 this.percentage = Math.floor(result)
             }),
             style:{
-                width:this.percentage/100 + 'px',
+                width:this.percentage/100 + '%',
                 opacity:1
             }
         }
