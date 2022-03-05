@@ -8,7 +8,7 @@ import mailFilter from './../cmps/mail-filter.cmp.js';
 export default {
     template: `
     <section class=" mail-app">
-            <h3>Mail app</h3>
+            <h3>J&J luxury mail application</h3>
             <mail-filter @filtered="setFilter"/>
             <div class="mail-layout">
             <side-bar :perc=percentage @compose="toggleMenu" @inbox = "setFilter" @sent = "setFilter" />
