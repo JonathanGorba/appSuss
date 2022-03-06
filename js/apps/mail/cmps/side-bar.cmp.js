@@ -20,7 +20,7 @@ export default {
                                 <percentage-bar :percBar="perc" ></percentage-bar>
                             </li>
 
-                            <img class="mail-logo" src="../../../../img/mail/logo.png">
+                            <img class="mail-logo" src="./img/mail/logo.png">
                             
                         </ul>
 
