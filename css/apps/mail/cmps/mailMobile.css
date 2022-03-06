@@ -11,6 +11,7 @@
         
         grid-column-start: 1;
         grid-column-end: two;
+        width: 100vw;
         /* grid-row-start:1;
         grid-row-end:2; */
     }
@@ -18,12 +19,14 @@
     .new-mail{
         grid-column-start: 1;
         grid-column-end: two;
+        width: 100vw;
 
     }
 
     .mail-details{
         grid-column-start: 1;
         grid-column-end: two;
+        width: 100vw;
     }
 
     /* .mail-layout{
@@ -40,6 +43,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .profile-pic{
+        display: none;
     }
     
 }
