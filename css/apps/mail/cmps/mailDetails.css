@@ -84,3 +84,7 @@
 .sub-header-details{
     display: flex;
 }
+.mobile-compose{
+height: 0;
+width: 0;
+}

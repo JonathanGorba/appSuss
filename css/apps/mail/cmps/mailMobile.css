@@ -2,5 +2,32 @@
 {
     .side-bar {
     display:none;
+    width: 0;
+    height: 0;
+
     }
+
+    .mail-list{
+        
+        grid-column-start: 1;
+        grid-column-end: two;
+        /* grid-row-start:1;
+        grid-row-end:2; */
+    }
+
+    /* .mail-layout{
+        display: flex;
+    } */
+    
+
+    .mobile-compose{
+        width: fit-content;
+        height: 60px;
+    }
+
+    .mobile-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }

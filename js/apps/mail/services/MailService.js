@@ -61,7 +61,7 @@ function _createMails() {
         isRead: false,
         sentAt: Date.now(),
         to: 'momo@momo.com',
-        from: 'Mila.Kunis@gmail.com',
+        from: 'Mila@gmail.com',
         pic:"mila"
 
       },
@@ -85,7 +85,7 @@ function _createMails() {
         isRead: false,
         sentAt: Date.now(),
         to: 'momo@momo.com',
-        from: 'rickSanchez@wabbalubbadubdub.com',
+        from: 'rick@wabbalubbadubdub.com',
         pic: "rick",
       },
       {
@@ -105,7 +105,7 @@ function _createMails() {
         isRead: false,
         sentAt: Date.now(),
         to: 'johny@gmail.com',
-        from: 'galGadot@gmail.com',
+        from: 'gal@gmail.com',
         pic:"gal"
 
       },

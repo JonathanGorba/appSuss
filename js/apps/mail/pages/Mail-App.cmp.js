@@ -5,11 +5,15 @@ import compose from '../cmps/compose.cmp.js';
 import mailDetails from '../cmps/mail-details.cmp.js';
 import mailFilter from './../cmps/mail-filter.cmp.js';
 
+
 export default {
     template: `
     <section class=" mail-app">
             <h3>Mail app</h3>
+            <div class="mobile-container">
+                <img @click="toggleMenu" src="../../../../img/mail/plus.png"class="mobile-compose">
             <mail-filter @filtered="setFilter"/>
+        </div>
             <div class="mail-layout">
             <side-bar :perc=percentage @compose="toggleMenu" @inbox = "setFilter" @sent = "setFilter" />
             <mail-list :mails="mailsToShow" v-if="isShown" class="mail-list" @remove ="removeMail" @selected ="selectMail" @showDetails="showDetails" @unread ="isReadMail"/>
