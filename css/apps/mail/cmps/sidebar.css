@@ -43,7 +43,7 @@
 .percentage-bar{
     position: relative;
     background-color: beige;
-    width: 100px;
+    width: 100%;
 }
 .read-percentage{
     background-color: greenyellow;
@@ -100,9 +100,13 @@
     width: 170px;
 }
 
-.folders-list{
+.folder-list{
     width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap:10px;
+}
+.folders-list > *{
+    margin-bottom: 10px;
 }
