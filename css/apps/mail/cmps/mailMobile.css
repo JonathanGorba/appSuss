@@ -15,6 +15,17 @@
         grid-row-end:2; */
     }
 
+    .new-mail{
+        grid-column-start: 1;
+        grid-column-end: two;
+
+    }
+
+    .mail-details{
+        grid-column-start: 1;
+        grid-column-end: two;
+    }
+
     /* .mail-layout{
         display: flex;
     } */
@@ -28,6 +39,7 @@
     .mobile-container{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
 }

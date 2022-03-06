@@ -9,7 +9,7 @@ import mailFilter from './../cmps/mail-filter.cmp.js';
 export default {
     template: `
     <section class=" mail-app">
-            <h3>Mail app</h3>
+            <h3 class="headline">J&J luxury mail app</h3>
             <div class="mobile-container">
                 <img @click="toggleMenu" src="../../../../img/mail/plus.png"class="mobile-compose">
             <mail-filter @filtered="setFilter"/>
