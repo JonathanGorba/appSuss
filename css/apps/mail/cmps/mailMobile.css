@@ -48,5 +48,11 @@
     .profile-pic{
         display: none;
     }
+
+    .mail-filter select{
+        border-left: none;
+        align-items: left;
+        display: block;
+    }
     
 }
